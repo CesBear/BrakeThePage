@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Summary Generator</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+</head>
+
+<body>
+<!-- Header section -->
+<header class="flex-container">
+    <img src="resources/images/EPAM_LOGO_white.png" alt ="epam logo">
+    <h1>UPSA Profile Summary Generator</h1>
+</header>
+<main>
+    <h2>Instructions:</h2>
+    <ul>
+        <li>Include some sentence statements which summarize your most marketable skills, qualifications and
+            accomplishments, especially for the role that you are being put forward for.</li>
+        <li>Name the key Client Projects that you have worked on, for example, say "Client Projects include:
+            ACME (USA eCommerce Retail), OMEGA (Germany eCommerce Travel), ALPHA (UK Banking)", start with the client
+            that is most relevant for the role that you are being put forward for.</li>
+        <li>Consider including accomplishments that highlight interpersonal skills.</li>
+        <li>It is recommended to use bulleted list</li>
+    </ul>
+</main>
+<!-- Table Section -->
+    <table align= "center" >
+        <tr class="row1">
+            <td class="row1 col1">
+                <label>
+                    <span class="role"> Placeholder Text field 1:</span>
+                </label>
+            </td>
+            <td class="row1 col2">
+                <div>
+                    <label>
+                        <textarea  rows ="3" cols="60" id='txf1' class="textointerno" maxlength="1200"></textarea>
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <tr class="row2">
+            <td class="row2 col1">
+                <label>
+                    <span class="role"> Placeholder Text field 2:</span>
+                </label>
+            </td>
+            <td class="row2 col2">
+                <div>
+                    <label>
+                        <textarea rows ="3" cols="60" wrap="hard" id='txf2' class="textointerno" maxlength="1200"></textarea>
+                    </label>
+                </div>
+            </td>
+        </tr>
+
+        <tr class="row1">
+            <td class="row1 col1">
+                <label>
+                    <span class="role">Placeholder Text field 3:</span>
+                </label>
+            </td>
+            <td class="row1 col2">
+                <div>
+                    <label>
+                        <textarea rows ="3" cols="60" id='txf3' class="textointerno" maxlength="1200"></textarea>
+                    </label>
+                </div>
+            </td>
+        </tr>
+
+        <tr class="row2">
+            <td class="row2 col1">
+                <label>
+                    <span class="role">Placeholder Text field 4:</span>
+                </label>
+            </td>
+            <td class="row2 col2">
+                <div>
+                    <label>
+                        <textarea rows ="3" cols="60"  id='txf4' class="textointerno" maxlength="1200"></textarea>
+                    </label>
+                </div>
+            </td>
+        </tr>
+
+        <tr class="row1">
+            <td class="row1 col1">
+                <label>
+                    <span class="role">Placeholder Text field 5:</span>
+                </label>
+            </td>
+            <td class="row1 col2">
+                <div>
+                    <label>
+                        <textarea rows ="3" cols="60" id='txf5' class="textointerno" maxlength="1200"></textarea>
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <tr class="row2">
+            <td class="row2 col1">
+                <label>
+                    <span class="role"> Click to generate your Summary:</span>
+                </label>
+            </td>
+            <td class="row2 col2">
+                <div>
+                    <label>
+                        <input name="Button" type="button" class="tracking"  onclick='notEmpty()' value="Generate Summary" />
+                    </label>
+                </div>
+            </td>
+        </tr>
+    </table>
+<footer>
+    Accelerator created by: <strong><a href="https://upsa.epam.com/workload/employeeView.do?employeeId=4060741400041649079#emplTab=general" title ="My UPSA profile">Cesar Ramirez</a></strong><br />
+    <span>QA Tunctional Test Engineers Area</span><br/>
+    <a href="mailto:example@email.com" title="Send me an email!">cesar_ramirez@epam.com</a>
+    <address>Guadalajara, México</address>
+</footer>
+<script src="resources/js/main.js"></script>
+</body>
+</html>
