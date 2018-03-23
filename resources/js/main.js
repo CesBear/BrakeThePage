@@ -8,7 +8,7 @@ function notEmpty() {
 .filter(item => item !== '');
 
     return values.length === itemsToInspect.length ?
-        document.write("Copy and paste your summary: <br /> " + values.join(' ')) :
+        document.write("User data generated: <br /> " + values.join(' ')) :
         window.alert('Error: Please fill all the fields');
 }
 
