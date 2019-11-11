@@ -5,6 +5,7 @@ function notEmpty() {
         const current = document.getElementById(item);
     return (current && current.value) || ''
 })
+
 .filter(item => item !== '');
 
     return values.length === itemsToInspect.length ?
