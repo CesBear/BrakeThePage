@@ -4,8 +4,6 @@
     <list default="true" id="b19e4da0-7c1a-4d42-bf47-89cc8bf6a07c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,8 @@
       <workItem from="1521076662660" duration="1814000" />
       <workItem from="1521133144752" duration="2000" />
       <workItem from="1521157046080" duration="1158000" />
-      <workItem from="1573452702224" duration="3218000" />
+      <workItem from="1573452702224" duration="3256000" />
+      <workItem from="1574257073097" duration="45000" />
     </task>
     <servers />
   </component>
@@ -89,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
